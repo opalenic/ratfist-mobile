@@ -37,4 +37,5 @@ jspm_packages
 .node_repl_history
 
 # All pure JS files in this project are generated
-**/*.js
+app/**/*.js
+*.js.map

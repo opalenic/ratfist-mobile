@@ -1,0 +1,14 @@
+<ActionBar title="Ratfist" class="action-bar">
+</ActionBar>
+
+<StackLayout class="page">
+    <ListView [items]="sensorService.sensors" class="list-group">
+        <ng-template let-sensor="item">
+            <StackLayout orientation="horizontal" class="list-group-item">
+                <Label [text]="sensor.id" class="p-x-2"></Label>
+                <Label [text]="sensor.type" class="p-x-2"></Label>
+                <Label [text]="sensor.lastVal" class="p-x-2"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+</StackLayout>
