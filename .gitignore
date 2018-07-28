@@ -30,6 +30,10 @@ build/Release
 node_modules
 jspm_packages
 
+# Build artifacts
+platforms
+hooks
+
 # Optional npm cache directory
 .npm
 
